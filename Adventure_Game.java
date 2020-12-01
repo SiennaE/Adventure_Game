@@ -25,7 +25,7 @@ public class Adventure_Game
         {
             System.out.print('\u000C');
             
-            System.out.println("Hello! Welcome to <TITLE HERE>!");
+            System.out.println("Hello! Welcome to Beast Hunting!");
             System.out.println(" ");
             System.out.println("Before we get started, please enter your name.");
             System.out.print("username: ");
@@ -157,7 +157,7 @@ public class Adventure_Game
                 if (option == 2) //birch pond
                 {
                     System.out.println("You and " + friend + " turn right towards Birch Pond.");
-                    System.out.println("At the pond, you and " + friend + " search for the goblins.");
+                    System.out.println("At the pond, you and " + friend + " search for the ogres.");
                     System.out.println(" ");
                     System.out.println("You find no ogres, but come across a shield.");
                     System.out.println("Will you take the shield? (Type \"1\" or \"2\")");
@@ -266,7 +266,7 @@ public class Adventure_Game
                         }
                         System.out.println(friend + " reclaims their sword and heads towards town to alert the location of the fallen two ogres.");
                         System.out.println(" ");
-                        System.out.print("Congrats, " + username + "! You helped " + friend + " find and defeat the goblins");
+                        System.out.print("Congrats, " + username + "! You helped " + friend + " find and defeat the ogres.");
                         if (shield == 1)
                         {
                             System.out.println("!");
@@ -274,7 +274,7 @@ public class Adventure_Game
                         else if (shield == 2)
                         {
                             System.out.println(", but ended up dying in the process.");
-                            System.out.println("A small memorial is built for you to honor your efforts to defeat the goblins.");
+                            System.out.println("A small memorial is built for you to honor your efforts to defeat the ogres.");
                         }
                     }
                     else if (weapon == 2) //pistol
@@ -284,7 +284,7 @@ public class Adventure_Game
                         System.out.println("Both ogres lay motionless on the floor.");
                         System.out.println(friend + " reclaims their sword and the two of you make your way back to town to alert the location of the fallen ogres.");
                         System.out.println(" ");
-                        System.out.println("Congrats, " + username + "! You are now known as the town hero for defeating the goblins!");
+                        System.out.println("Congrats, " + username + "! You are now known as the town hero for defeating the ogres!");
                     }
                     else if (weapon == 3) //nothing
                     {
